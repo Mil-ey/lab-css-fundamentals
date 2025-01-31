@@ -1,0 +1,102 @@
+body {
+    background-color: #1499ba;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin: 0;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    alignment: center;
+}
+label {
+    display: block;
+    color: #090809;
+    margin-bottom: 10px;
+    ;
+    font-weight: bold;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.8;
+}
+header {
+    background-color: rgb(123, 224, 244);
+    color: rgb(230, 13, 100);
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: medium;
+
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+input[type=date], imput[type= DOB], input[type=number]
+ {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 65px;
+}
+
+label[for="income"] {
+    display: block;
+    margin-bottom: 5px; 
+}
+
+select[name="income"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    margin-right: 200px;
+}
+
+
+.button-container
+{
+    display: flex;
+    justify-content: space-between;
+    justify-content: 10cm;
+    width: 100%;
+    gap: 13px;
+}
+.button {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    background-color: hsl(188, 74%, 54%);
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover 
+{
+    background-color:hsl(348, 74%, 44%);
+}
+
+footer {
+    background-color: hsl(180, 55%, 79%);
+    color: #0d0d0d;
+    text-align: left;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}

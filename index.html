@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1>Survey Form</h1>
+</head Participation in this survey is voluntary. By submitting this survey, you agree to the terms and conditions of H & M Corporation. Your personal information will be used for the purpose of the study and may be shared with a trusted third party.>
+   
+<body>
+<form action="index.php" method="post">
+        
+        <label for="name">Full Name:</label>
+        
+        <input type="text" name="name" id="name" name = name required>
+        <br>
+        <br>
+        
+        <label for="email">Email Adress:</label>
+        
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="dob"> DOB</label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend> <label for="">Gender:</label> </legend>
+            <label><input type="radio" name="gender" value="Male" required> Male</label>
+            <label><input type="radio" name="gender" value="Male"> Female</label>
+            <label><input type="radio" name="gender" value="Male"> Other</label>
+            </fieldset>
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <input type="text" name="name" id="name" name = name required>
+            <br>
+            <br>
+            <label for="city">City:</label>
+            <input type="text" name="name" id="name" name = name required>
+            <br>
+            <br>
+            <label for=" Income">Income Range:</label>
+            <select name="income" id="income" required>
+                <option value="0-10000">0-10000</option>
+                <option value="10000-20000">10000-20000</option>
+                <option value="20000-30000">20000-30000</option>
+                <option value="30000-40000">30000-40000</option>
+                <option value="40000-50000">40000-50000</option>
+                <option value="50000-60000">50000-60000</option>
+                <option value="60000-70000">60000-70000</option>
+                <option value="70000-80000">70000-80000</option>
+                <option value="80000-90000">80000-90000</option>
+                <option value="90000-100000">90000-100000</option>
+                <option value="100000+">100000+</option>
+            </select>
+                <br>
+                <br>
+                <br>
+            <label><input type="checkbox" name="terms" required> I agree to the Terms and Conditions</label>
+            
+            <a href="Terms & conditions.html"> Terms & Conditions </a>
+            <br>
+            <br>
+            <label><input type="checkbox" name="terms"> I would like to participate in similar surveys.</label>
+            <br>
+            <br>
+            
+            <div class="button-container">
+                <button class="button"> Submit</button>
+                <button class="button"> Reset</button>
+            </div>
+        <br>
+        <br>
+
+    
+            
+                
+                
+        <footer>
+            <p>
+                This survey is conducted by H & M Corporation. All rights reserved.
+            </p>
+        </footer>          
+
+    
+</body>
+
+</html>
+
